@@ -1,0 +1,10 @@
+a.item-delete {
+    position: absolute;
+    right: -15%;
+    top: -30px;
+}
+span.post-state {
+    background: #ccffbb;
+    padding: 0px 6px;
+    border-radius: 3px;
+}

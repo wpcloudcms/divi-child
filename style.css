@@ -1,0 +1,437 @@
+/*======================================
+Theme Name: divi-child
+Theme URI: https://dividose.com/divi-child
+Description: Divi Child
+Version: 1.3
+Author: Dividose
+Author URI: https://dividose.com/
+Template: Divi
+======================================*/
+/* aet-responsive-check  */
+.widget_meta li:nth-child(3), .widget_meta li:nth-child(4), .widget_meta li:nth-child(5) {
+    display: none;
+}
+body { 
+  height:100vh;
+} 
+html.et-fb-top-html #awt-responsive-check { 
+    margin-top: 32px;
+}
+html.et-fb-app-frame #awt-responsive-check {
+  display: none
+}
+.et-db #et-boc #et-fb-app-frame {
+    top: 36px;
+}
+iframe#et-fb-app-frame {
+  top: 18px
+}
+
+html.et-fb-top-html body.admin-bar {
+  margin-top: 18px
+}
+
+html.et-fb-top-html body.admin-bar header#main-header {
+  margin-top: 18px
+}
+div#awt-responsive-check {
+  line-height: 18px;
+  height: 18px;
+  top: 0;
+  position: fixed;
+  left: 0;
+  margin-top: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #222;
+  color: #fff0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 13px;
+  border: 1px solid #ffffff50
+}
+
+#awt100 {
+  width: 100%
+}
+ .responsivecheck{
+    position: relative;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #ffffff50;
+    border-right: 1px solid #ffffff50;
+}
+#desktop1600px {
+    width: 1600px;
+    top: -18px;
+}
+#desktop1600px:hover {
+    color: #fff;
+    background: #444;
+      border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+#laptop1366px {
+    width: 1366px;
+    top: -34px;
+}
+#laptop1366px:hover {
+    color: #fff;
+    background: #444;
+      border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+#tablet980px {
+    width: 980px;
+    top: -50px;
+}
+#tablet980px:hover {
+    color: #fff;
+    background: #444;
+      border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+#mobilephone360px {
+    width: 360px;
+    top: -66px;
+}
+#mobilephone360px:hover {
+    color: #fff;
+    background: #444;
+      border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+body.mobilephone360px {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#wp-calendar th, #content-area table#wp-calendar td {
+    padding: 5px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+/* Defaults  */
+/* global changes start */
+.frm_form_field.frm2, .frm_submit.frm2, .frm_form_field.frm3, .frm_submit.frm3, .frm_form_field.frm4, .frm_submit.frm4, .frm_form_field.frm6, .frm_submit.frm6, .frm_form_field.frm8, .frm_submit.frm8, .frm_form_field.frm9, .frm_submit.frm9, .frm_form_field.frm_right_half, .frm_form_field.frm_right_third, .frm_form_field.frm_right_two_thirds, .frm_form_field.frm_right_fourth, .frm_form_field.frm_right_fifth, .frm_form_field.frm_right_inline, .frm_form_field.frm_last_half, .frm_form_field.frm_last_third, .frm_form_field.frm_last_two_thirds, .frm_form_field.frm_last_fourth, .frm_form_field.frm_last_fifth, .frm_form_field.frm_last_sixth, .frm_form_field.frm_last_seventh, .frm_form_field.frm_last_eighth, .frm_form_field.frm_last_inline, .frm_form_field.frm_last, .frm_form_field.frm_half, .frm_submit.frm_half, .frm_form_field.frm_third, .frm_submit.frm_third, .frm_form_field.frm_two_thirds, .frm_form_field.frm_fourth, .frm_submit.frm_fourth, .frm_form_field.frm_three_fourths, .frm_form_field.frm_fifth, .frm_submit.frm_fifth, .frm_form_field.frm_two_fifths, .frm_form_field.frm_three_fifths, .frm_form_field.frm_four_fifths, .frm_form_field.frm_sixth, .frm_submit.frm_sixth, .frm_form_field.frm_seventh, .frm_submit.frm_seventh, .frm_form_field.frm_eighth, .frm_submit.frm_eighth, .frm_form_field.frm_inline, .frm_submit.frm_inline {
+    margin-left: 1.25% !important;
+}
+.frm_single_upload {
+    max-width: 100% !important;
+}
+body.page-id-2 .page-title {
+    display: none;
+}
+header#main-header.et-fixed-header ul#top-menu {
+  top: -15px;
+}
+.page-title {
+    z-index: -1 !important;
+}
+.et_pb_fullwidth_menu .fullwidth-menu-nav ul {
+    padding-top: 20px !important;
+}
+div#dividose-header .et_pb_fullwidth_menu, div#dividose-header .et_pb_fullwidth_code {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+div#dividose-header {
+    position: relative;
+    z-index: 999;
+}
+pre.wp-block-code {
+    background: #eee;
+    padding: 8px;
+    color: #232323;
+}
+/* global changes end */
+#dividose-header {
+    position: relative;
+    z-index: 99;
+}
+.et_pb_row {
+ width: 95%;
+}
+.et_pb_text_inner {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#top-header {
+    z-index: 9999 !important;
+} 
+div.et_pb_widget ul li {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+body.single article>img, body.single article .et_post_meta_wrapper>img, figure.wp-block-image.vimg {
+    border-bottom: 1px dashed #eee;
+    
+}
+figure.wp-block-image img {
+    text-align: center;
+} 
+#logo-site-title {
+    display: none;
+}
+#logo-site-title h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+}
+h2.entry-title {
+    margin-bottom: 5px;
+}
+.um-profile.um {
+    max-width: 1280px !important;
+}
+.um-cover {
+    width: 104.25%;
+    margin-left: auto;
+    margin-right: auto;
+    left: -2.125%;
+}
+/* You can add your own CSS styles here. Use !important to overwrite styles if needed. */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Page loading animation Starts */
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(https://cdn.wpcloudcms.com/wpcloudcms.com/wp-content/loading.svg) 50% 50% no-repeat;
+  background-size: 80px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.loading-txt {
+    color: #fff;
+    width: 15%;
+    min-width: 300px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    top: 55vh;
+    background: #33333380;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading-txt .click-here {
+  font-size: 14px;
+}
+
+/* Page loading animation Ends */
+
+div#dividose-header span .et_pb_section:nth-last-child(1) {
+  z-index: 0;
+}
+
+div#dividose-header .et_pb_row {
+    width: 95%;
+    max-width: 1280px !important;
+}
+
+div#dividose-header.remove-header,
+div#dividose-footer.remove-footer {
+  display: none !important;
+}
+
+#dividose-header,
+#dividose-footer {
+  margin: 0px auto;
+  background: #fff0;
+  text-align: center;
+}
+
+/*Replace “POST_TYPE” with the slug for your new CPT created with CPTUI.
+___________________________________________________________*/
+
+.et_pb_pagebuilder_layout.single-template #page-container .et_pb_row {
+  width: 100%;
+}
+
+.et_pb_pagebuilder_layout.single-template #page-container .et_pb_with_background .et_pb_row {
+  width: 80%;
+}
+
+/*Replace “POST_TYPE” with the slug for your new CPT created with CPTUI. */
+
+.free-du-plugin-header ul#menu-primary-menu {
+  z-index: 1000;
+}
+
+.fa {
+  line-height: inherit !important;
+}
+
+.fa-ul {
+  list-style-type: none !important;
+}
+
+.fa-li {
+  top: 0px !important;
+}
+
+/* Theme Footer Bar Credit Txt - Starts*/
+
+#footer-bottom {
+  padding: 15px 5px;
+}
+#footer-bottom .container {
+    width: 90%;
+    max-width: 1280px;
+}
+
+div#footer-info .float-left {
+  float: left;
+}
+
+div#footer-info .float-right {
+  float: right;
+}
+
+/*** Responsive Styles Tablet And Below ***/
+
+@media all and (max-width: 980px) {
+  div#footer-info .float-left,
+  div#footer-info .float-right {
+    float: none;
+  }
+}
+
+.divi-hacks-custom-footer #et-footer-nav,
+.divi-hacks-custom-footer #footer-bottom {
+  display: block !important;
+}
+
+#footer-widgets ul.et_pb_module.et_pb_social_media_follow li:before {
+  display: none;
+}
+
+#footer-widgets ul.et_pb_module.et_pb_social_media_follow li {
+  padding-left: 0px;
+}
+
+#footer-info {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+/* Theme Footer Bar Credit Txt - Ends*/
+
+#logo {
+  max-height: 90%;
+}
+
+div#site-logo {
+  padding-left: 100px;
+}
+
+.site-logo {
+  margin-left: -100px;
+  top: 0px !important;
+}
+
+/*=================================== Divi Header, Footer Layout Editing Screen ======================================*/
+
+body.single.single-et_pb_layout div#dividose-header,
+body.et-fb div#dividose-header,
+body.single.single-et_pb_layout div#dividose-footer,
+body.et-fb div#dividose-footer,
+body.single.single-et_pb_layout footer#main-footer,
+body.et-fb footer#main-footer,
+body.page-template-page-template-blank div#dividose-header,
+body.page-template-page-template-blank div#dividose-footer {
+  display: none !important;
+}
+
+/*=================================== Divi Contact form  ======================================*/
+
+.et_pb_contact_form_container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.et-pb-contact-message p {
+  text-align: center;
+  color: green;
+  padding: 20px !important;
+  background: #eeffee;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.et-pb-contact-message ul li {
+  color: red;
+  background: #ffe5e5;
+  padding: 10px !important;
+  margin: 0px 5px;
+  list-style: none;
+  padding-left: 20px !important;
+}
+
+select.input, select option {
+    font-size: 16px;
+    padding: 15px;
+    color: #333;
+}
+
+/*=================================== Page loading animation ======================================*/
+
+a.loading-spinner span {
+  width: 20vw!important;
+  height: 20vh !important;
+  position: absolute;
+  left: 40vw;
+  bottom: 40vh;
+  /*     border: 1px solid #ccc; */
+}
+
+a.loading-spinner {
+  position: absolute;
+  top: 100vh;
+  right: 100vw;
+}
+
+/*========================  Deault section background as Transparent ===========================*/
+
+#divi-hacks-404 div#page-content,
+.et_pb_section {
+  background: #fff0 !important;
+}
+
+/*====================  call to action promo section class - side-by-side =======================*/
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 981px) {
+  #side-by-side .et_pb_promo_description {
+    width: 75%;
+    padding-bottom: 0px;
+  }
+  #side-by-side .et_pb_button_wrapper {
+    width: 22%;
+    float: right;
+    position: absolute;
+    bottom: 33.333%;
+    right: 3%;
+  }
+}
