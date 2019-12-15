@@ -8,3 +8,13 @@ span.post-state {
     padding: 0px 6px;
     border-radius: 3px;
 }
+input#submit.button-primary {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    height: 100px;
+    border-radius: 100px;
+    max-width: 100px;
+    padding: 8px;
+    font-size: 14px;
+}
