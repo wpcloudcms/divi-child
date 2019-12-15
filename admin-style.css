@@ -17,4 +17,8 @@ input#submit.button-primary {
     max-width: 100px;
     padding: 8px;
     font-size: 14px;
+    opacity: .5;
+}
+input#submit.button-primary {
+    opacity: 1;
 }
